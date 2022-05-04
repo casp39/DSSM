@@ -1,1 +1,7 @@
-# DSSM
+# Deep State-Space Model for Noise Tolerant Skeleton-Based Action Recognition
+
+## Paper
+Kazuki KAWAMURA, Takashi MATSUBARA, Kuniaki UEHARA, Deep State-Space Model for Noise Tolerant Skeleton-Based Action Recognition, IEICE Transactions on Information and Systems, 2020, E103.D 巻, 6 号, p. 1217-1225, 公開日 2020/06/01, Online ISSN 1745-1361, Print ISSN 0916-8532, https://doi.org/10.1587/transinf.2019MVP0012, https://www.jstage.jst.go.jp/article/transinf/E103.D/6/E103.D_2019MVP0012/_article/-char/ja, 
+
+## Abstract
+Action recognition using skeleton data (3D coordinates of human joints) is an attractive topic due to its robustness to the actor's appearance, camera's viewpoint, illumination, and other environmental conditions. However, skeleton data must be measured by a depth sensor or extracted from video data using an estimation algorithm, and doing so risks extraction errors and noise. In this work, for robust skeleton-based action recognition, we propose a deep state-space model (DSSM). The DSSM is a deep generative model of the underlying dynamics of an observable sequence. We applied the proposed DSSM to skeleton data, and the results demonstrate that it improves the classification performance of a baseline method. Moreover, we confirm that feature extraction with the proposed DSSM renders subsequent classifications robust to noise and missing values. In such experimental settings, the proposed DSSM outperforms a state-of-the-art method.
